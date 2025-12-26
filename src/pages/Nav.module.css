@@ -1,0 +1,32 @@
+.navhead{
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px; 
+    padding: 30px;
+    background: rgb(12, 12, 12);
+    color: white;
+    /* width: 100%; */
+    font-size: 21px;
+
+
+   
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 750px !important;
+    margin-left: 10px !important;
+}
+
+.navItem:hover {
+    color: brown;
+    cursor: pointer;
+}
+.navhead{
+    display: flex;
+    gap: 50px;
+}
+.img{
+    border-radius: 5px solid rgb(34, 3, 34);
+    background:purple;
+}

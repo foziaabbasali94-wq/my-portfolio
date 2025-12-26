@@ -1,0 +1,107 @@
+.title{
+    font-size: 50px!important;
+      color: white;
+      font-weight: 800;
+    
+    
+}
+.title1{
+     font-size: 60px !important;
+     color:purple;
+       font-weight: 800;
+       
+     
+}
+.detail{
+    width: 70%;
+       color: white;
+     
+       font-size: 20px !important;
+}
+.head{
+  padding-left: 70px; 
+ margin-top: 60px;
+}
+.superhead{
+    display: flex;
+   
+ width: 100%;
+
+ height: 90vh;
+
+
+}
+head1{
+   
+/* width: 100%; */
+/* height: 100%; */
+object-fit: cover;
+
+
+
+}
+.pic{
+     width: 300px;
+     height: 300px;
+ border-radius: 50%;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ overflow: hidden;
+ margin-top: 180px;
+ margin-right: 130px;
+ border: 20px solid#333;
+}
+.btngradient{
+     background: linear-gradient(90deg, #a569bd, #ec7063);
+  border: none;
+  padding: 12px 30px;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.herobuttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  padding-left: 70px;
+  
+}
+body{
+    background: #0b0b0f;
+}
+
+/* FOOTER */
+.footerlinks:hover{
+  color: #0c0c0c;
+  text-decoration: underline;
+}
+.footercontainer{
+  background: linear-gradient(90deg,#00b4db,#b06ab3,#ee85a8);
+  padding: 40px 0 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+.socialicons{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 20px;
+  color: white;
+}
+.socialicons svg{
+  font-size: 40px;
+  cursor: pointer;
+}
+.footerlinks{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+  font-size: 21px;
+}
+.intro{
+  margin-top: 20px!important;
+}

@@ -1,0 +1,79 @@
+.abt1 {
+    background: linear-gradient(90deg, #00b4db, #b06ab3, #ee85a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+     font-size: 60px !important;
+}
+.abt{
+     font-weight: 800; 
+     font-size: 60px !important;
+     color: white;
+}
+.sprabt{
+    display: flex;
+    gap: 14px;
+    /* align-items: center;
+    text-align: center; */
+    margin-left: 600px;
+}
+
+
+.detail {
+  position: relative;
+  padding: 25px;
+  background: transparent;   /* NO background */
+  color: white;
+  border-radius: 20px;
+  width: 600px;
+  height: 100px;
+}
+
+/* Gradient outline */
+.detail::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px;              /* outline thickness */
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    #00b4db,
+    #b06ab3,
+    #ee85a8
+  );
+
+  /* This creates outline only */
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+.superdetail{
+  gap: 20px !important;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.detail::after {
+  content: "";
+  position: absolute;
+  inset: -6px;          /* distance from first outline */
+  padding: 2px;
+  border-radius: 14px;
+  background: linear-gradient(
+    90deg,
+    #00c6ff,
+    #0072ff
+  );
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  z-index: -1;
+}

@@ -1,0 +1,85 @@
+/* HEADING */
+.heading {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 60px !important;
+  font-weight: 800;
+  color: white;
+}
+
+.subtitle {
+  font-size: 60px !important;
+  font-weight: 800;
+  color: rgb(250, 80, 250);
+}
+
+/* FORM BOX */
+.formBox {
+  max-width: 520px;
+  margin: auto;
+  padding: 35px;
+  /* background-color: #000; */
+  border-radius: 14px;
+  /* box-shadow: 0 0 25px rgba(0, 180, 219, 0.35); */
+  color: white;
+}
+
+/* TEXTFIELD STYLING */
+.formBox :global(.MuiOutlinedInput-root) {
+  color: white;
+  background: transparent;
+}
+
+.formBox :global(.MuiOutlinedInput-notchedOutline) {
+  border-color: rgb(250, 80, 250);
+}
+
+.formBox
+  :global(.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline) {
+  border-color: #b06ab3;
+}
+
+.formBox
+  :global(.MuiOutlinedInput-root.Mui-focused
+    .MuiOutlinedInput-notchedOutline) {
+  border-color: #ee85a8;
+  border-width: 2px;
+}
+
+/* LABEL */
+.formBox :global(.MuiInputLabel-root) {
+  color: #aaa;
+}
+
+.formBox :global(.MuiInputLabel-root.Mui-focused) {
+  color: #ee85a8;
+}
+
+/* ERROR MESSAGE */
+.formBox :global(.MuiFormHelperText-root) {
+  color: #ff6b6b;
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid rgb(250, 80, 250) !important;
+  color: white!important;
+  transition: all 0.3s ease;
+ 
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #00b4db, #b06ab3, #ee85a8);
+  color: black !important;
+  box-shadow: 0 0 15px rgba(238, 133, 168, 0.8);
+}
