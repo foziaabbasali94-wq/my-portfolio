@@ -7,6 +7,7 @@
     color: white;
     /* width: 100%; */
     font-size: 21px;
+    cursor: pointer;
 
 
    
@@ -20,7 +21,7 @@
 
 .navItem:hover {
     color: brown;
-    cursor: pointer;
+    cursor:pointer;
 }
 .navhead{
     display: flex;
